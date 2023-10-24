@@ -7,4 +7,4 @@ stokbrood_totaal = stokbrood_prijs * 2
 korting_totaal = kortingsbon * 3
 
 totaal_prijs = croissant_totaal + stokbrood_totaal - korting_totaal
-print("De totale prijs is: ", totaal_prijs)
+print(f"De feestlunch kost je bij de bakker {totaal_prijs} euro voor de 17 croissantjes en de 2 stokbroden als de 3 kortingsbonnen nog geldig zijn!")

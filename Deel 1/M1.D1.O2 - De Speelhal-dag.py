@@ -10,6 +10,6 @@ toegang_prijs = toegangsticket * personen
 
 totaal_prijs = gameseat_prijs_totaal * toegang_prijs
 totaal_prijs = round(totaal_prijs,2)
-print("Uw totaalbedrag is: ", totaal_prijs)
+print(f"Dit geweldige dagje-uit met 4 mensen in de Speelhal met 45 minuten VR kost je maar {totaal_prijs} euro")
 
 
