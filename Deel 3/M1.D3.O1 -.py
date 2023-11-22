@@ -1,5 +1,8 @@
-getalA = input("Kies eerste getal")
-getalB = input("Kies tweede getal")
+getalA = int(input("Kies eerste getal: "))
+getalB = int(input("Kies tweede getal: "))
+max = getalA
+min = getalB
+
 
 if getalA > getalB:
     max = getalA
@@ -11,3 +14,6 @@ elif getalA < getalB:
 
 else:
     print(f"'A' en 'B' zijn even groot")
+
+print(f"Het minimum is {min}")
+print(f"Het maximum is {max}")
