@@ -4,14 +4,14 @@ medium = int(input("Hoeveel medium pizzas wilt u? "))
 large = int(input("Hoeveel grote pizzas wilt u? "))
 
 #prijzen
-smallprijs = 6
-mediumprijs = 8
-largeprijs = 11
+SMALL_PRIJS = 6.50
+MEDIUM_PRIJS = 8
+LARGE_PRIJS = 11
 
 #kosten
-smallkosten = small * smallprijs
-mediumkosten = medium * mediumprijs
-largekosten = large * largeprijs
+smallkosten = small * SMALL_PRIJS
+mediumkosten = medium * MEDIUM_PRIJS
+largekosten = large * LARGE_PRIJS
 totaalprijs = smallkosten + mediumkosten + largekosten
 
 #output
