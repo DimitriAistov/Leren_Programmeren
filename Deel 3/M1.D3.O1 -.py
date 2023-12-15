@@ -6,10 +6,12 @@ min = getalB
 
 if getalA > getalB:
     max = getalA
+    min = getalB
     print(f"'A' is het grootste getal {max}")
 
 elif getalA < getalB:
-    min = getalB
+    min = getalA
+    max = getalB
     print(f"'A' is het kleinste getal {min}")
 
 else:
