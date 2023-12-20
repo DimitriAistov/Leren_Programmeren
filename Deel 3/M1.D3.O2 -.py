@@ -10,7 +10,11 @@ if geel == "ja":
     else:
         hard = input("Is de kaas hard als steen? ").lower()
         if hard == "ja":
-            print("Parmigiano Reggiano")
+            zoutig = input("Is de kaas zout")
+            if zoutig =="ja":
+                print("Old Amsterdammer")
+            else:
+                print("Parmigiano Reggiano")
         else:
             print("Goudse kaas")
 else:

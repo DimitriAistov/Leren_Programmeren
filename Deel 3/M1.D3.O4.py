@@ -1,11 +1,17 @@
-Naam1 = "oorschot"
+SLB = "oorschot"
+NAAM = "dimitri"
 
 gastheer = input("Wie is de gastheer? ").lower()
 gasten = True
 drank = True
 chips = True
 
-if chips and drank and (gasten or gastheer) == True and gastheer != Naam1 and gastheer != "":
-    print('Start the Party')
+noParty = "No Party"
+party = "Start the Party"
+
+if chips and drank and (gastheer != "" or gastheer == NAAM or gastheer != SLB):
+    print(party)
+elif gastheer != "" and chips:
+    print(party)
 else:
-    print('No Party')
+    print(noParty)

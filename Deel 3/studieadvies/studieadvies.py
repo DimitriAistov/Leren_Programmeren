@@ -10,11 +10,16 @@ opties2 = OPTIES
 print(opties2)
 opties2 = int(input(""))
 
-uitkomst = opties1 + opties2
+print (COMPETENTIE_STELLING_3)
+opties3 = OPTIES
+print(opties3)
+opties3 = int(input(""))
 
-if uitkomst >=6:
-    print (COMPETENTIE_ADVIES_GERUSTSTELLEND)
-elif uitkomst ==5:
+uitkomst = round(opties1 + opties2 + opties3) /3
+
+if uitkomst ==3:
     print(COMPETENTIE_ADVIES_TWIJFELACHTIG)
-elif uitkomst <=4:
+elif uitkomst <3:
     print(COMPETENTIE_ADVIES_ZORGELIJK)
+else:
+    print(COMPETENTIE_ADVIES_GERUSTSTELLEND)
