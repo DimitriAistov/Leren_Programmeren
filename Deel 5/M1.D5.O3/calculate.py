@@ -36,4 +36,9 @@ result1 = (nr1 - (nr4 - nr3)) / (nr2 + nr3)
 result2 = divide(subtract(nr1,subtract(nr4,nr3)),add(nr2,nr3))
 test('expression-5', result1, result2)
 
+result1 = 100-5*5
+result2 = subtract(100,multiply(5,5))
+test('extra', result1, result2)
+
+
 report()

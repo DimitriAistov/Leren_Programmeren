@@ -41,6 +41,10 @@ expected = 16
 calculated = ceil(nr) # use one function to calculate expected number
 test('sky-is-the-limit', expected, calculated)
 
+nr = 8.237
+expected = 8
+calculated = round(nr) # use one function to calculate expected number
+test('extra', expected, calculated)
 report()
 
 
