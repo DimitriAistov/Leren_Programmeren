@@ -40,5 +40,4 @@ result1 = 100-5*5
 result2 = subtract(100,multiply(5,5))
 test('extra', result1, result2)
 
-
 report()
